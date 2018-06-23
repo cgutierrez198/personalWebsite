@@ -1,0 +1,23 @@
+body {
+    padding-top: 5rem;
+}
+.container{
+
+    background-color: #454545;
+    color:#fff;
+}
+.main-container{
+    padding: 3rem 1.5rem;
+    text-align: center;
+                              
+}
+
+
+.su-gdocs{
+    margin: 0 auto;
+    display: block;
+}
+
+.pIcon{
+    padding: 0px 12px;
+}
