@@ -60,6 +60,9 @@ body {
             
     background-color:unset;
 }
+.jumbotron-2{
+    padding:12rem 2rem;
+}
 
 .card-body{
     background-color:#1f1f1f;
