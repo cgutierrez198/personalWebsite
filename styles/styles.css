@@ -5,9 +5,19 @@ body {
 }
 #header{
     background-color: transparent;
-    background:url("../assets/websiteWallpaper2.png") no-repeat center top fixed;
     background-size:cover;
     height:480px;
+}
+
+.mainHeader{
+    background:url("../assets/websiteWallpaper2.png") no-repeat center top fixed;
+}
+.projectsHeader{
+    background:url("../assets/projects.png") no-repeat center top fixed;
+}
+
+.workFlowHeader{
+    background:url("../assets/dTop.png") no-repeat center top fixed;
 }
 #site-header {
 	position: fixed;
@@ -46,7 +56,8 @@ body {
     margin-bottom: 0rem ; 
 }
 .jumbotron{
-    padding:12rem 2rem;
+    padding:13.5rem 2rem;
+            
     background-color:unset;
 }
 
