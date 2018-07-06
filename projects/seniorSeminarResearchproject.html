@@ -4,6 +4,11 @@
 
 <html>
 <head>
+
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="../styles/bootstrap.min.css"  crossorigin="anonymous">   
+    
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" type="text/css" href="../styles/styles.css">
     
 	<title>Christopher Gutierrez &ndash; Home</title>
@@ -11,32 +16,38 @@
 
 <body>
 
-    <div id="menu">
-	<ul>
-		<li><a href="../index.html">Home</a></li>
-		<li><a href="../projects.html">Projects</a></li>
-		<li><a href="../resume.html">Resume</a></li>
-		<li><a href="../workflow.html">Work-flow</a></li>
-	</ul>
-	
-    
-    </div>
-    <div id="contacts"> 
-	    <ul>
-	    
-	        <li><a target="_blank" href="https://github.com/cgutierrez198">
-	                Github</a></li>
-	        <li><a target="_blank" href="mailto:chris201234@gmail.com">
-	                Gmail</a></li>
-	        <li><a target="_blank" href="mailto:chris_201234@yahoo.com">
-		    Yahoo</a></li>
-	    </ul>
-    </div>
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-	<div class="mProject">
-	
+      <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="../index.html">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../projects.html">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../resume.html">Resume</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../workflow.html">Work-flow</a>
+          </li>
+        </ul>
+	     <ul class="nav navbar-nav navbar-right social">
+                <li><a href="mailto:christ201234@gmail.com"><i class="fa fa-2x fa-envelope pIcon"></i></a></li>
+                <li><a href="https://github.com/cgutierrez198/"><i class="fa fa-2x fa-github pIcon"></i></a></li>
+                <li><a href="https://www.linkedin.com/in/christopher-gutierrez-428854163/"><i class="fa fa-2x fa-linkedin pIcon"></i></a></li>
+            </ul>
+      </div>
+    </nav>
+
+    <main role="main" class="container">
+
+    <div class="main-container">
     <h1>Project Abstract</h1>
-    
     <p>  
     
        In this project, we create a program to scrape the stock data from a list of 
@@ -54,14 +65,83 @@
     </p>
 
     </div>
-<div class="mPoster">
+
+
+<div class="md-12">
     <h1>Senior Research Seminar Poster</h1>
-    
-	<iframe src="http://docs.google.com/gview?url=http://chris-gutierrez.website/pdfFiles/dataPoster_Christopher_Gutierrez.pdf&embedded=true" width="500" height="500" frameborder="0"></iframe>
+   	<div class="embed-responsive embed-responsive-4by3">
+ 
+	<iframe class="embed-responsive-4by3" src="http://docs.google.com/gview?url=http://chris-gutierrez.website/pdfFiles/dataPoster_Christopher_Gutierrez.pdf&embedded=true" width="500" height="500" frameborder="0"></iframe>
+	</div>
+    </div>
+    </main>
+
+
+<!-- Footer -->
+<footer class="page-footer font-small mdb-color lighten-3 pt-4 mt-4">
+
+    <!-- Footer Links -->
+    <div class="container text-center text-md-left">
+
+      <!-- Grid row -->
+      <div class="row">
+
+
+        <hr class="clearfix w-100 d-md-none">
+
+        <!-- Grid column -->
+
+        <hr class="clearfix w-100 d-md-none">
+
+        <!-- Grid column -->
+        <div class="col-md-4 col-lg-4 mx-auto my-md-4 my-0 mt-4 mb-1">
+
+          <!-- Contact details -->
+          <h5 class="font-weight-bold text-uppercase mb-4">Address</h5>
+
+          <ul class="list-unstyled">
+            <li>
+              <p>
+                <i class="fa fa-envelope mr-3"></i> chris201234@gmail.com </p>
+            </li>
+            <li>
+              <p>
+                <i class="fa fa-envelope mr-3"></i> chris_201234@yahoo.com </p>
+            </li>
+            <li>
+              <p>
+                <i class="fa fa-phone mr-3"></i> +1 (210) 639 - 4563</p>
+            </li>
+          </ul>
+
+        </div>
+        <!-- Grid column -->
+
+        <hr class="clearfix w-100 d-md-none">
+
+        <!-- Grid column -->
+        <div class="col-md-4 col-lg-4 text-center mx-auto my-4">
+
+          <!-- Social buttons -->
+          <h5 class="font-weight-bold text-uppercase mb-3">Other Sites</h5>
+
+                <a target="_blank" href="mailto:christ201234@gmail.com"><i class="fa fa-1x fa-envelope pIcon"></i></a>
+                <a target="_blank" href="https://github.com/cgutierrez198/"><i class="fa fa-1x fa-github pIcon"></i></a>
+                <a target="_blank" href="https://www.linkedin.com/in/christopher-gutierrez-428854163/"><i class="fa fa-1x fa-linkedin pIcon"></i></a>
+                <a target="_blank" href="https://stackoverflow.com/users/10002657/chris-gutierrez"><i class="fa fa-1x fa-stack-overflow pIcon"></i></a>
+
+        </div>
+        <!-- Grid column -->
+
+      </div>
+      <!-- Grid row -->
 
     </div>
+    <!-- Footer Links -->
 
 
+  </footer>
+  <!-- Footer -->
 </body>
 
 
